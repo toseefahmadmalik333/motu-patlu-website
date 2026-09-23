@@ -49,7 +49,7 @@ export const BEST_DELIVERED_ITEMS: MenuItem[] = [
     category: "Flame-Grilled Hero",
     description: "Artisan toasted brioche crown, double flame-grilled seasoned patty, double molten cheddar, caramelized sweet onions, and house special smoky relish.",
     priceDisplay: "Rs. 450/-",
-    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80",
+    image: "/images/food/flame-burger.jpg",
     isAuthenticImage: false,
     tag: "Bestseller",
   },
@@ -59,7 +59,7 @@ export const BEST_DELIVERED_ITEMS: MenuItem[] = [
     category: "Artisan Sandwiches",
     description: "Three layers of golden toasted milk bread loaded with shredded spiced chicken, cheese slice, sunny-side fried egg, crisp lettuce, cucumber, and herb garlic spread.",
     priceDisplay: "Rs. 420/-",
-    image: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80",
+    image: "/images/food/club-sandwich.jpg",
     isAuthenticImage: false,
     tag: "Must Try",
   },
@@ -69,7 +69,7 @@ export const BEST_DELIVERED_ITEMS: MenuItem[] = [
     category: "Spit-Roasted Meat",
     description: "Finely shaved spiced chicken prepared over a vertical spit, served on warm freshly baked pita with authentic garlic toum, pickled veggies, and golden fries.",
     priceDisplay: "Rs. 450/-",
-    image: "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=800&q=80",
+    image: "/images/food/shawarma-platter.jpg",
     isAuthenticImage: false,
     tag: "Chef Special",
   }
@@ -83,7 +83,7 @@ export const MENU_GRID_ITEMS: MenuItem[] = [
     subCategory: "burgers",
     description: "Char-grilled seasoned beef/chicken patty, molten yellow cheddar, caramelized onions, and house barbecue glaze.",
     priceDisplay: "Rs. 450/-",
-    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80",
+    image: "/images/food/flame-burger.jpg",
     tag: "🔥 Fire-Grilled",
   },
   {
@@ -93,7 +93,7 @@ export const MENU_GRID_ITEMS: MenuItem[] = [
     subCategory: "burgers",
     description: "Signature battered crisp fried whole chicken fillet, spicy dynamite sauce, and crunchy iceberg on toasted brioche.",
     priceDisplay: "Rs. 480/-",
-    image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=600&q=80",
+    image: "/images/food/zinger-master.jpg",
     tag: "⚡ Ultra Crispy",
   },
   {
@@ -103,7 +103,7 @@ export const MENU_GRID_ITEMS: MenuItem[] = [
     subCategory: "sandwiches",
     description: "Golden toasted triangular club sandwich packed with chicken mayo, fried egg, cheddar slice, and crisp greens.",
     priceDisplay: "Rs. 420/-",
-    image: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80",
+    image: "/images/food/club-sandwich.jpg",
     tag: "🥪 Fan Favorite",
   },
   {
@@ -113,7 +113,7 @@ export const MENU_GRID_ITEMS: MenuItem[] = [
     subCategory: "sandwiches",
     description: "Pressed toasted panini with spiced fajita chicken strips, sweet roasted bell peppers, and gooey mozzarella cheese.",
     priceDisplay: "Rs. 390/-",
-    image: "https://images.unsplash.com/photo-1509722747041-616f39b57569?auto=format&fit=crop&w=600&q=80",
+    image: "/images/food/grilled-panini.jpg",
     tag: "🧀 Cheesy Melt",
   },
   {
@@ -134,7 +134,7 @@ export const MENU_GRID_ITEMS: MenuItem[] = [
     subCategory: "pizza",
     description: "Loaded with chicken tikka chunks, smoked sausages, mushrooms, black olives, onions, and rich mozzarella.",
     priceDisplay: "Rs. 1,150/-",
-    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80",
+    image: "/images/food/supreme-pizza.jpg",
     tag: "🍕 Stone-Baked",
   },
   {
@@ -144,7 +144,7 @@ export const MENU_GRID_ITEMS: MenuItem[] = [
     subCategory: "shawarma",
     description: "Tender rotisserie-carved marinated chicken wrapped in soft pita with homemade garlic toum and crunchy pickles.",
     priceDisplay: "Rs. 250/-",
-    image: "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=600&q=80",
+    image: "/images/food/shawarma-platter.jpg",
     tag: "🌯 Pure Tradition",
   },
   {
@@ -154,7 +154,7 @@ export const MENU_GRID_ITEMS: MenuItem[] = [
     subCategory: "shawarma",
     description: "Crispy pan-fried paratha wrapped around smoky charcoal chicken boti, sliced red onions, and tangy mint chutney.",
     priceDisplay: "Rs. 320/-",
-    image: "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=600&q=80",
+    image: "/images/food/paratha-roll.jpg",
     tag: "🔥 Charcoal BBQ",
   },
   {
@@ -164,7 +164,7 @@ export const MENU_GRID_ITEMS: MenuItem[] = [
     subCategory: "sides",
     description: "Crisp potato crinkle fries drenched in warm cheddar cheese sauce, chicken tikka bits, and jalapeño slices.",
     priceDisplay: "Rs. 320/-",
-    image: "https://images.unsplash.com/photo-1585109649139-366815a0d713?auto=format&fit=crop&w=600&q=80",
+    image: "/images/food/loaded-fries.jpg",
     tag: "🍟 Cheesy Crunch",
   },
   {
@@ -174,7 +174,7 @@ export const MENU_GRID_ITEMS: MenuItem[] = [
     subCategory: "sides",
     description: "Whole milk blended with premium dark chocolate syrup, chocolate chips, and a scoop of creamy gelato.",
     priceDisplay: "Rs. 350/-",
-    image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=600&q=80",
+    image: "/images/food/chocolate-shake.jpg",
     tag: "🥤 Chilled Indulgence",
   },
 ];
@@ -185,20 +185,20 @@ export const REVIEWS: ReviewItem[] = [
     name: "Muhammad Rizwan",
     rating: 5,
     comment: "Best fast food point in Kasur! Their zinger burgers, club sandwiches, and kulhad pizza are unmatched. The family hall upstairs is peaceful, cool, and comfortable for families.",
-    avatar: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=120&q=80",
+    avatar: "/images/avatars/avatar-1.jpg",
   },
   {
     id: "rev-2",
     name: "Usman Ali",
     rating: 4,
     comment: "Great taste, super fast delivery, and very convenient late-night timing till 2:00 AM. The grilled flame burger and sandwiches are top tier for late cravings.",
-    avatar: "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?auto=format&fit=crop&w=120&q=80",
+    avatar: "/images/avatars/avatar-2.jpg",
   },
   {
     id: "rev-3",
     name: "Tariq Mehmood",
     rating: 5,
     comment: "Family hall arrangements are very respectful and properly air conditioned. We enjoyed the stone pizza, club sandwiches, and clay-pot kulhad pizza. Highly recommended in Kasur!",
-    avatar: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=120&q=80",
+    avatar: "/images/avatars/avatar-3.jpg",
   },
 ];

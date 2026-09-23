@@ -10,12 +10,12 @@ const MARQUEE_DISHES = [
   {
     name: 'Royal Kasuri Flame Burger',
     tag: 'Double Flame-Grilled Patty',
-    src: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80',
+    src: '/images/food/flame-burger.jpg',
   },
   {
     name: 'Triple-Decker Club Sandwich',
     tag: 'Golden Toasted Bread & Egg',
-    src: 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80',
+    src: '/images/food/club-sandwich.jpg',
   },
   {
     name: 'Kasur Live Kitchen Counter',
@@ -25,32 +25,32 @@ const MARQUEE_DISHES = [
   {
     name: 'Zinger Crunch Master',
     tag: 'Crispy Fried Fillet & Aioli',
-    src: 'https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80',
+    src: '/images/food/zinger-master.jpg',
   },
   {
     name: 'Chicken Shawarma Platter',
     tag: 'Spit-Roasted & Garlic Toum',
-    src: 'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=800&q=80',
+    src: '/images/food/shawarma-platter.jpg',
   },
   {
     name: 'Kasuri Stone-Baked Pizza',
     tag: 'Gooey Mozzarella Melt',
-    src: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80',
+    src: '/images/food/supreme-pizza.jpg',
   },
   {
     name: 'Loaded Cheesy Lava Fries',
     tag: 'Crispy Crinkle Cut & Sauce',
-    src: 'https://images.unsplash.com/photo-1585109649139-366815a0d713?auto=format&fit=crop&w=800&q=80',
+    src: '/images/food/loaded-fries.jpg',
   },
   {
     name: 'Dedicated AC Family Hall',
     tag: 'Upstairs Private Seating',
-    src: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80',
+    src: '/images/food/family-hall.jpg',
   },
   {
     name: 'Thick Belgian Chocolate Shake',
     tag: 'Chilled Sweet Blend',
-    src: 'https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80',
+    src: '/images/food/chocolate-shake.jpg',
   },
 ];
 

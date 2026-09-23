@@ -49,7 +49,7 @@ export const FloatingFoodElements: React.FC = () => {
           {/* Burger Cutout Container */}
           <div className="relative w-28 h-28 sm:w-36 sm:h-36 rounded-full overflow-hidden border-2 border-white/20 shadow-[0_20px_40px_rgba(0,0,0,0.8)] backdrop-blur-sm bg-black/40">
             <img
-              src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=300&q=80"
+              src="/images/food/flame-burger.jpg"
               alt="Gourmet Burger Floating"
               className="w-full h-full object-cover scale-110"
               draggable={false}
@@ -96,7 +96,7 @@ export const FloatingFoodElements: React.FC = () => {
           {/* Sandwich Cutout Container */}
           <div className="relative w-24 h-24 sm:w-32 sm:h-32 rounded-full overflow-hidden border-2 border-white/20 shadow-[0_20px_40px_rgba(0,0,0,0.8)] backdrop-blur-sm bg-black/40">
             <img
-              src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=300&q=80"
+              src="/images/food/club-sandwich.jpg"
               alt="Toasted Club Sandwich"
               className="w-full h-full object-cover scale-110"
               draggable={false}
@@ -171,7 +171,7 @@ export const FloatingFoodElements: React.FC = () => {
 
           <div className="relative w-20 h-20 sm:w-28 sm:h-28 rounded-full overflow-hidden border-2 border-white/20 shadow-[0_20px_40px_rgba(0,0,0,0.8)] backdrop-blur-sm bg-black/40">
             <img
-              src="https://images.unsplash.com/photo-1585109649139-366815a0d713?auto=format&fit=crop&w=300&q=80"
+              src="/images/food/loaded-fries.jpg"
               alt="Crispy Golden Fries"
               className="w-full h-full object-cover scale-110"
               draggable={false}

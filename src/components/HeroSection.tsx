@@ -145,17 +145,17 @@ export const HeroSection: React.FC = () => {
                 <div className="flex items-center gap-2 mb-1">
                   <div className="flex -space-x-2">
                     <img
-                      src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=80&q=80"
+                      src="/images/avatars/cust-1.jpg"
                       alt="Customer"
                       className="w-8 h-8 rounded-full border-2 border-white object-cover shadow-sm"
                     />
                     <img
-                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=80&q=80"
+                      src="/images/avatars/cust-2.jpg"
                       alt="Customer"
                       className="w-8 h-8 rounded-full border-2 border-white object-cover shadow-sm"
                     />
                     <img
-                      src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=80&q=80"
+                      src="/images/avatars/cust-3.jpg"
                       alt="Customer"
                       className="w-8 h-8 rounded-full border-2 border-white object-cover shadow-sm"
                     />

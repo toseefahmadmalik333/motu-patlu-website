@@ -99,7 +99,11 @@ export const MenuGridSection: React.FC<MenuGridProps> = ({ onOrder }) => {
                       src={item.image}
                       alt={item.name}
                       loading="lazy"
-                      className="w-full h-full object-cover scale-105 group-hover:rotate-6 transition-transform duration-700"
+                      className={`w-full h-full ${
+                        item.id.includes('kulhad')
+                          ? 'object-contain p-3 group-hover:scale-110'
+                          : 'object-cover scale-105 group-hover:rotate-6'
+                      } transition-transform duration-700`}
                     />
                   </div>
 
