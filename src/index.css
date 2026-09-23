@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  background-color: #0C0C0C;
+  color: #D7E2EA;
+  font-family: 'Kanit', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Attractive Heading Gradients */
+.hero-heading {
+  background: linear-gradient(180deg, #FFFFFF 0%, #DDE6EE 45%, #FFA040 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heading-gradient-gold {
+  background: linear-gradient(135deg, #FFFFFF 0%, #FFF2E0 35%, #FFB066 70%, #FF6B00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heading-gradient-silver {
+  background: linear-gradient(180deg, #FFFFFF 0%, #E2E8F0 50%, #94A3B8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Neon Orange Bracket Glow */
+.bracket-glow {
+  color: #FF6B00;
+  text-shadow: 0 0 16px rgba(255, 107, 0, 0.75), 0 0 32px rgba(255, 107, 0, 0.4);
+}
+
+.orange-glow-box {
+  box-shadow: 0 0 30px -5px rgba(255, 107, 0, 0.25);
+}
+
+.orange-glow-box-strong {
+  box-shadow: 0 0 50px -5px rgba(255, 107, 0, 0.45);
+}
+
+/* Shimmer Animation for Badges */
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(200%);
+  }
+}
+
+.animate-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.animate-shimmer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.25), transparent);
+  animation: shimmer 2.5s infinite;
+}
+
+/* Gentle Float Animation */
+@keyframes gentle-float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(2deg);
+  }
+}
+
+.animate-float {
+  animation: gentle-float 6s ease-in-out infinite;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0C0C0C;
+}
+::-webkit-scrollbar-thumb {
+  background: #252528;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 107, 0, 0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF6B00;
+}
